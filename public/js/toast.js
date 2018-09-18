@@ -12,8 +12,8 @@ export default function hello( argu ){
             unDiv.setAttribute("id", "DivErreur");////DivSucces   DivInfo
             unDiv.setAttribute("height", "300px");
             unDiv.innerHTML = texto;
-            var btn = document.createElement("BUTTON");
-            var t = document.createTextNode("CLICK Erreur");       // Create a text node
+            let btn = document.createElement("BUTTON");
+            let t = document.createTextNode("CLICK Erreur");       // Create a text node
             btn.appendChild(t);
             unDiv.appendChild(btn);
             unT.appendChild(unDiv);
@@ -27,8 +27,8 @@ export default function hello( argu ){
             let unDiv = document.createElement("div");
             unDiv.setAttribute("id", "DivSucces");////DivSucces   DivInfo
             unDiv.innerHTML = texto;
-            var btn = document.createElement("BUTTON");
-            var t = document.createTextNode("CLICK Success");       // Create a text node
+            let btn = document.createElement("BUTTON");
+            let t = document.createTextNode("CLICK Success");       // Create a text node
             btn.appendChild(t);
             unDiv.appendChild(btn);
             unT.appendChild(unDiv);
@@ -43,8 +43,8 @@ export default function hello( argu ){
             let unDiv = document.createElement("div");
             unDiv.setAttribute("id", "DivInfo");////DivSucces   DivInfo
             unDiv.innerHTML = texto;
-            var btn = document.createElement("BUTTON");
-            var t = document.createTextNode("CLICK Info");       // Create a text node
+            let btn = document.createElement("BUTTON");
+            let t = document.createTextNode("CLICK Info");       // Create a text node
             btn.appendChild(t);
             unDiv.appendChild(btn);
             unT.appendChild(unDiv);
